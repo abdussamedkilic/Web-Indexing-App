@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kocaeli Üniversitesi
+        Bilgisayar Muhendisligi Bolumu Yazılım Lab.II Proje I</title>
+    <style>
+        .part3-form {
+            width: 300px;
+            margin: 0 auto;
+            font-family: Tahoma, Geneva, sans-serif;
+        }
+
+        .part3-form h1 {
+            text-align: center;
+            color: #4d4d4d;
+            font-size: 24px;
+            padding: 20px 0 20px 0;
+        }
+
+        .part3-form input[type="password"],
+        .part3-form input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #dddddd;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .part3-form input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #535b63;
+            border: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-weight: bold;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part3-form">
+        <h1>İki Sayfa (URL) Arasındaki Benzerlik Skorlaması</h1>
+        <form action="similarity_score" method="POST">
+            <input type="text" name="url1" placeholder="URL 1" required>
+            <input type="text" name="url2" placeholder="URL 2" required>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
